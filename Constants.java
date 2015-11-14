@@ -1,7 +1,5 @@
-package com.keenfin.demo;
-
 public interface Constants {
-    String AUTHORITY = "com.keenfin.demo.provider";
+    String AUTHORITY = ;
     String SERVER_URL = "http://176.9.38.120/demo";
     String ACCOUNT_NAME = "GisConf.ru Demo";
     String ANONYMOUS = "anonymous";
