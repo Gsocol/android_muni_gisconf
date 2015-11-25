@@ -21,9 +21,6 @@ import com.nextgis.maplibui.util.ConstantsUI;
 
 import java.util.List;
 
-/**
- * A placeholder fragment containing a simple view.
- */
 public class MainActivityFragment extends Fragment implements MapViewEventListener {
     private MapViewOverlays mMap;
     private CurrentLocationOverlay mCurrentLocationOverlay;
@@ -75,7 +72,8 @@ public class MainActivityFragment extends Fragment implements MapViewEventListen
 
     @Override
     public void onSingleTapUp(MotionEvent event) {
-        selectProblemPoint(event);
+        if (mLayer != null)
+            selectProblemPoint(event);
     }
 
     private void selectProblemPoint(MotionEvent event) {

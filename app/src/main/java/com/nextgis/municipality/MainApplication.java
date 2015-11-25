@@ -5,7 +5,6 @@ import android.content.ContentResolver;
 import android.os.AsyncTask;
 import android.os.Bundle;
 
-import com.nextgis.maplib.R;
 import com.nextgis.maplib.util.GeoConstants;
 import com.nextgis.maplib.util.NGException;
 import com.nextgis.maplib.util.NGWUtil;
@@ -21,7 +20,7 @@ import java.io.IOException;
 public class MainApplication extends GISApplication {
     @Override
     protected void onFirstRun() {
-        String layerName = getString(R.string.osm);
+        String layerName = getString(com.nextgis.municipality.R.string.osm);
         String layerURL = SettingsConstantsUI.OSM_URL;
         RemoteTMSLayerUI osmRasterLayer = new RemoteTMSLayerUI(getApplicationContext(), mMap.createLayerStorage(layerName));
         osmRasterLayer.setName(layerName);
