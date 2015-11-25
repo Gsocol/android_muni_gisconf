@@ -8,6 +8,7 @@
     <string name="problem_type_other">Other</string>
     <string name="problem_desc">Description</string>
     <string name="problem_cred">Name, contact</string>
+    <string name="problem_photo">Photo</string>
     <string name="problem_submit">Submit</string>
     <string name="problem_submitted">Problem submitted</string>
     <string name="problem_submit_failed">Submit failed</string>

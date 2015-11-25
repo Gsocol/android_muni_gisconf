@@ -1,21 +1,14 @@
 package com.nextgis.municipality;
 
 import android.content.Intent;
-import android.content.SyncResult;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
-import com.nextgis.maplib.api.IGISApplication;
-import com.nextgis.maplib.api.ILayer;
-import com.nextgis.maplib.map.MapBase;
-import com.nextgis.maplib.map.NGWVectorLayer;
-
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,18 +53,5 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    private void sync() {
-        IGISApplication application = (IGISApplication) getApplication();
-        MapBase map = application.getMap();
-        NGWVectorLayer ngwVectorLayer;
-        for (int i = 0; i < map.getLayerCount(); i++) {
-            ILayer layer = map.getLayer(i);
-            if (layer instanceof NGWVectorLayer) {
-                ngwVectorLayer = (NGWVectorLayer) layer;
-                ngwVectorLayer.sync(application.getAuthority(), new SyncResult());
-            }
-        }
     }
 }
