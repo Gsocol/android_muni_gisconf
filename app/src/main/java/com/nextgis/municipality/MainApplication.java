@@ -1,10 +1,11 @@
-package com.keenfin.demo;
+package com.nextgis.municipality;
 
 import android.accounts.Account;
 import android.content.ContentResolver;
 import android.os.AsyncTask;
 import android.os.Bundle;
 
+import com.nextgis.maplib.R;
 import com.nextgis.maplib.util.GeoConstants;
 import com.nextgis.maplib.util.NGException;
 import com.nextgis.maplib.util.NGWUtil;

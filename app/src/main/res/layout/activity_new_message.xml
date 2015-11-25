@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".NewMessageActivity">
+    tools:context="com.nextgis.municipality.NewMessageActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"

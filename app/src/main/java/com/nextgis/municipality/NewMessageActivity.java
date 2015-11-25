@@ -1,4 +1,4 @@
-package com.keenfin.demo;
+package com.nextgis.municipality;
 
 import android.content.ContentValues;
 import android.location.Location;

@@ -1,7 +1,7 @@
-package com.keenfin.demo;
+package com.nextgis.municipality;
 
 public interface Constants {
-    String AUTHORITY = "com.keenfin.demo.provider";
+    String AUTHORITY = "com.nextgis.municipality.provider";
     String SERVER_URL = "http://176.9.38.120/demo";
     String ACCOUNT_NAME = "GisConf.ru Demo";
     String ANONYMOUS = "anonymous";

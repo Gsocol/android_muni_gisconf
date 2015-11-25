@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
-    package="com.keenfin.demo"
+    package="com.nextgis.municipality"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
@@ -47,7 +47,7 @@
 
         <provider
             android:name="com.nextgis.maplib.datasource.LayerContentProvider"
-            android:authorities="com.keenfin.demo.provider"
+            android:authorities="com.nextgis.municipality.provider"
             android:exported="false"
             android:syncable="true"/>
     </application>

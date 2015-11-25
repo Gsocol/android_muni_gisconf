@@ -1,4 +1,4 @@
-package com.keenfin.demo;
+package com.nextgis.municipality;
 
 import android.database.Cursor;
 import android.support.design.widget.Snackbar;
@@ -14,7 +14,6 @@ import com.nextgis.maplib.datasource.GeoEnvelope;
 import com.nextgis.maplib.datasource.GeoPoint;
 import com.nextgis.maplib.map.MapDrawable;
 import com.nextgis.maplib.map.VectorLayer;
-import com.nextgis.maplib.util.*;
 import com.nextgis.maplibui.api.MapViewEventListener;
 import com.nextgis.maplibui.mapui.MapViewOverlays;
 import com.nextgis.maplibui.overlay.CurrentLocationOverlay;

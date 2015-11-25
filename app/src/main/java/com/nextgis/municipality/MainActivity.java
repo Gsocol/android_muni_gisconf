@@ -1,4 +1,4 @@
-package com.keenfin.demo;
+package com.nextgis.municipality;
 
 import android.content.Intent;
 import android.content.SyncResult;

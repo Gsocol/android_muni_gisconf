@@ -1,4 +1,4 @@
-package com.keenfin.demo;
+package com.nextgis.municipality;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
