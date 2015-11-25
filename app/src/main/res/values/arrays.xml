@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="problem_types">
+        <item>@string/problem_type_pit</item>
+        <item>@string/problem_type_garbage</item>
+        <item>@string/problem_type_other</item>
+    </string-array>
+</resources>
